@@ -1,0 +1,323 @@
+/*index css*/
+
+body {
+    margin: 0;
+    background-color: rgb(255, 193, 193);
+    font-family: "Source Sans Pro", sans-serif;
+    color: black;
+}
+
+.header {
+    padding: 0 45px;
+    background-color: rgb(128, 0, 0);
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nava {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.nava:hover {
+    color: rgb(255, 193, 193);
+    transform: rotate(6deg);
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    margin-left: 20px;
+    color: rgb(255, 217, 0);
+}
+
+.logoutbutton {
+    background-color: rgb(255, 147, 121);
+    color: rgb(128, 0, 0);
+    text-decoration: none;
+    margin: 0;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    display: inline-block;
+}
+
+.normal {
+    color: black;
+}
+
+.mainpart {
+    text-align: center;
+    list-style: none;
+    color: black;
+    min-height: 500px;
+}
+
+
+/*index css*/
+
+.homepage {
+    padding: 150px 150px 80px 150px;
+}
+
+.homepage h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.homepage p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.button {
+    background-color: rgb(128, 0, 0);
+    color: #FFF;
+    text-decoration: none;
+    margin: 30px 20px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+
+/*signin and signup css*/
+
+.button:hover {
+    color: rgb(255, 193, 193);
+}
+
+.loginbox {
+    display: flex;
+}
+
+.login {
+    list-style: none;
+    margin: 20px 2px;
+}
+
+.sign {
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 2px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(64, 64, 64);
+    font-size: 1rem;
+}
+
+.signupandin {
+    padding: 50px 0 0 0;
+    font-size: 1.2rem;
+}
+
+.signupandin ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.signupandin li input {
+    height: 30px;
+    width: 200px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.signupandin li select {
+    height: 39px;
+    width: 125px;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.signupbuttom {
+    height: 50px;
+    width: 300px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    margin: 30px 0 0 0;
+    background-color: rgb(128, 0, 0);
+    color: white;
+    border: 0px;
+}
+
+.signinresult {
+    padding: 170px 150px 100px 150px;
+    margin: 0;
+}
+
+.signinresult h1 {
+    line-height: 1.5;
+}
+
+
+/*upload css*/
+
+.uploadbox {
+    padding: 50px 0 0 0;
+    font-size: 1.2rem;
+}
+
+.uploadbox ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.ulb1 {
+    height: 30px;
+    width: 320px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.ulb2 {
+    height: 35px;
+    width: 180px;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.ulb3 {
+    height: 35px;
+    width: 320px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.uploadbox li select {
+    height: 39px;
+    width: 157px;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.uploadbuttom {
+    height: 50px;
+    width: 420px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    margin: 40px 0 0 0;
+    background-color: rgb(128, 0, 0);
+    color: white;
+    border: 0px;
+}
+
+
+/* biblio css*/
+
+.biblio {
+    padding: 50px 0 0 0;
+    font-size: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.biblio ul {
+    list-style: none;
+}
+
+.none {
+    width: auto;
+    padding: 0;
+    border: 0;
+}
+
+.none td,
+th {
+    border: 0;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.none tr input {
+    margin: 0;
+}
+
+.none tr:nth-child(even) {
+    background-color: rgb(255, 193, 193);
+}
+
+.searchbox {
+    margin: auto;
+    border: 1px solid rgb(128, 0, 0);
+    width: 1000px;
+    padding: 10px;
+}
+
+
+/* myspace */
+
+.myspace {
+    padding: 50px 0 0 0;
+    font-size: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 1000px;
+    border: 2px solid rgb(128, 0, 0);
+}
+
+td,
+th {
+    border: 1px solid rgb(128, 0, 0);
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 148, 121, 0.39);
+}
+
+.x {
+    height: 30px;
+    font-size: 1.2rem;
+    width: 250px;
+    border: 1px solid rgb(128, 0, 0)c;
+    margin: 5px;
+}
+
+.y {
+    height: 30px;
+    width: 75px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(128, 0, 0);
+    margin: 5px;
+}
+
+textarea {
+    width: 870px;
+    height: 150px;
+    padding: 12px;
+    border: 1px solid rgb(128, 0, 0);
+    font-size: 1.2rem;
+    resize: vertical;
+}
+
+.myspace ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
